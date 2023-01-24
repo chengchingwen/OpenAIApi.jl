@@ -1,7 +1,7 @@
-module OpenAI
+module OpenAIApi
 
-using HTTP
-using JSON
+using Downloads
+using JSON3
 
 const BASE_URL_v1="https://api.openai.com/v1"
 
